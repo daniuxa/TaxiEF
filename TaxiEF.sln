@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiEF", "TaxiEF\TaxiEF.csproj", "{4E098014-BBAC-4257-AA5A-4D813C74D3EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiDomain", "TaxiDomain\TaxiDomain.csproj", "{8CEF35EB-3061-47BE-9DDC-032E2C296EC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiData", "TaxiData\TaxiData.csproj", "{26697333-6A9C-4D40-A960-41FF64169BC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E098014-BBAC-4257-AA5A-4D813C74D3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E098014-BBAC-4257-AA5A-4D813C74D3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E098014-BBAC-4257-AA5A-4D813C74D3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E098014-BBAC-4257-AA5A-4D813C74D3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CEF35EB-3061-47BE-9DDC-032E2C296EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CEF35EB-3061-47BE-9DDC-032E2C296EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CEF35EB-3061-47BE-9DDC-032E2C296EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CEF35EB-3061-47BE-9DDC-032E2C296EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26697333-6A9C-4D40-A960-41FF64169BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26697333-6A9C-4D40-A960-41FF64169BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26697333-6A9C-4D40-A960-41FF64169BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26697333-6A9C-4D40-A960-41FF64169BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8EB5CB2-5333-4FCF-93D5-BFAC444DF07F}
+	EndGlobalSection
+EndGlobal

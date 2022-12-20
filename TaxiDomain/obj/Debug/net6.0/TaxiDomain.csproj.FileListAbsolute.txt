@@ -1,0 +1,12 @@
+C:\Users\saliv\source\repos\TaxiEF\TaxiDomain\bin\Debug\net6.0\TaxiDomain.deps.json
+C:\Users\saliv\source\repos\TaxiEF\TaxiDomain\bin\Debug\net6.0\TaxiDomain.dll
+C:\Users\saliv\source\repos\TaxiEF\TaxiDomain\bin\Debug\net6.0\ref\TaxiDomain.dll
+C:\Users\saliv\source\repos\TaxiEF\TaxiDomain\bin\Debug\net6.0\TaxiDomain.pdb
+C:\Users\saliv\source\repos\TaxiEF\TaxiDomain\obj\Debug\net6.0\TaxiDomain.csproj.AssemblyReference.cache
+C:\Users\saliv\source\repos\TaxiEF\TaxiDomain\obj\Debug\net6.0\TaxiDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saliv\source\repos\TaxiEF\TaxiDomain\obj\Debug\net6.0\TaxiDomain.AssemblyInfoInputs.cache
+C:\Users\saliv\source\repos\TaxiEF\TaxiDomain\obj\Debug\net6.0\TaxiDomain.AssemblyInfo.cs
+C:\Users\saliv\source\repos\TaxiEF\TaxiDomain\obj\Debug\net6.0\TaxiDomain.csproj.CoreCompileInputs.cache
+C:\Users\saliv\source\repos\TaxiEF\TaxiDomain\obj\Debug\net6.0\TaxiDomain.dll
+C:\Users\saliv\source\repos\TaxiEF\TaxiDomain\obj\Debug\net6.0\ref\TaxiDomain.dll
+C:\Users\saliv\source\repos\TaxiEF\TaxiDomain\obj\Debug\net6.0\TaxiDomain.pdb

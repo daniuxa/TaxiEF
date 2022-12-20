@@ -1,0 +1,17 @@
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\bin\Debug\net6.0\TaxiData.deps.json
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\bin\Debug\net6.0\TaxiData.runtimeconfig.json
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\bin\Debug\net6.0\TaxiData.dll
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\bin\Debug\net6.0\ref\TaxiData.dll
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\bin\Debug\net6.0\TaxiData.pdb
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\bin\Debug\net6.0\TaxiDomain.dll
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\bin\Debug\net6.0\TaxiDomain.pdb
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\obj\Debug\net6.0\TaxiData.csproj.AssemblyReference.cache
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\obj\Debug\net6.0\TaxiData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\obj\Debug\net6.0\TaxiData.AssemblyInfoInputs.cache
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\obj\Debug\net6.0\TaxiData.AssemblyInfo.cs
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\obj\Debug\net6.0\TaxiData.csproj.CoreCompileInputs.cache
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\obj\Debug\net6.0\TaxiData.csproj.CopyComplete
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\obj\Debug\net6.0\TaxiData.dll
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\obj\Debug\net6.0\ref\TaxiData.dll
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\obj\Debug\net6.0\TaxiData.pdb
+C:\Users\saliv\source\repos\TaxiEF\TaxiData\obj\Debug\net6.0\TaxiData.genruntimeconfig.cache

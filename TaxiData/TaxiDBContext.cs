@@ -16,6 +16,7 @@ namespace TaxiDBData
         public DbSet<CarType> CarTypes { get; set; }
         public DbSet<Car> Cars { get; set; }
         public DbSet<CarClass> CarClasses { get; set; }
+        public DbSet<Person> Persons { get; set; }
 
         private StreamWriter streamWriter = new StreamWriter("InfoLogs.log", append: false);
         private DbContextOptionsBuilder<TaxiDBContext> optionsBuilder;

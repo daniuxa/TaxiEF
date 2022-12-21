@@ -9,6 +9,8 @@
       "TaxiEF/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.1",
+          "Microsoft.EntityFrameworkCore.Design": "7.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.1",
           "TaxiData": "1.0.0",
           "TaxiDomain": "1.0.0"

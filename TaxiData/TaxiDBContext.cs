@@ -20,7 +20,18 @@ namespace TaxiDBData
         private StreamWriter streamWriter = new StreamWriter("InfoLogs.log", append: false);
         private DbContextOptionsBuilder<TaxiDBContext> optionsBuilder;
 
-        public TaxiDBContext(DbContextOptions<TaxiDBContext> options) : base(options)
+        public TaxiDBContext(DbContextOptions options) : base(options)
+        {
+            Database.EnsureDeleted();
+            Database.EnsureCreated();
+        }
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(TaxiDBContext).Assembly);
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             var builder = new ConfigurationBuilder();
             builder.SetBasePath(Directory.GetCurrentDirectory());
@@ -31,24 +42,6 @@ namespace TaxiDBData
             optionsBuilder.UseSqlServer(connectionString!).
                 LogTo(streamWriter.WriteLine, new[] { DbLoggerCategory.Database.Command.Name }, LogLevel.Information).
                 EnableSensitiveDataLogging();
-        }
-
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(TaxiDBContext).Assembly);
-        }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            /*var builder = new ConfigurationBuilder();
-            builder.SetBasePath(Directory.GetCurrentDirectory());
-            builder.AddJsonFile("appsettings.json");
-            var config = builder.Build();
-            string? connectionString = config.GetConnectionString("MyConnection");
-
-            optionsBuilder.UseSqlServer(connectionString!).
-                LogTo(streamWriter.WriteLine, new[] { DbLoggerCategory.Database.Command.Name }, LogLevel.Information).
-                EnableSensitiveDataLogging();*/
         }
         public override void Dispose()
         {

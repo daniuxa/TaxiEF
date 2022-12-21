@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4e098014-bbac-4257-aa5a-4d813c74d3ee": {
+      "ProjectGuid": "4e098014-bbac-4257-aa5a-4d813c74d3ee",
+      "DisplayName": "TaxiEF",
+      "ColorIndex": 0
+    },
+    "5165ce26-5e03-4838-8046-2f36a61fbba1": {
+      "ProjectGuid": "5165ce26-5e03-4838-8046-2f36a61fbba1",
+      "DisplayName": "TaxiData",
+      "ColorIndex": 1
+    },
+    "8cef35eb-3061-47be-9ddc-032e2c296ec9": {
+      "ProjectGuid": "8cef35eb-3061-47be-9ddc-032e2c296ec9",
+      "DisplayName": "TaxiDomain",
+      "ColorIndex": 2
+    },
+    "26697333-6a9c-4d40-a960-41ff64169bc9": {
+      "ProjectGuid": "26697333-6a9c-4d40-a960-41ff64169bc9",
+      "DisplayName": "TaxiData",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

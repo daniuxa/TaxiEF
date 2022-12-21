@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace TaxiDomain
 {
-    public class Client
+    public class Client : Person
     {
-        public int ClientID { get; set; }
-        public string FName { get; set; }
-        public string LName { get; set; }
-        public string Phone { get; set; }
         public string Email { get; set; }
 
         public List<Order> orders = new List<Order>();

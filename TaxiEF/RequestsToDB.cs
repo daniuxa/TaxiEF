@@ -34,6 +34,8 @@ namespace TaxiEF
                 { VIN = "SWERTYUIOP1234567", Brand = "Skoda", Model = "Octavia", ProdYear = 2015, CarClass = standart, Mileage = 200000, LastDateMaintenance = new(2018, 12, 1), LicensePlate = "AC0000CC", CarType = sedan };
 
                 context.Cars.AddRange(AudiA7, BMWX5, SkodaOctavia);
+
+                context.SaveChanges();
             }
         }
 
@@ -45,6 +47,7 @@ namespace TaxiEF
                 if (auto != null)
                 {
                     auto.ProdYear = 2018;
+                    context.SaveChanges();
                 }
             }
         }

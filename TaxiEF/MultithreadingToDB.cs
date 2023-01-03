@@ -18,23 +18,26 @@ namespace CarShowroomDB
 
         public void LockExample()
         {
-            object? locker = new object();
-
             for (int i = 0; i < 10; i++)
             {
                 using (TaxiDBContext context = new TaxiDBContext(options))
                 {
                     Thread myThread = new(() =>
                     {
-                        lock (locker!)
-                        {
-                            context.Clients.Add(new Client { LName = "Client " + i });
-                            context.SaveChanges();
-                        }
+                        LockerToDB(context);
                     });
                     myThread.Start();
-                }
-                   
+                }      
+            }
+        }
+
+        private void LockerToDB(TaxiDBContext context)
+        {
+            object? locker = new object();
+            lock (locker!)
+            {
+                context.Clients.Add(new Client { LName = "Client " + i });
+                context.SaveChanges();
             }
         }
 

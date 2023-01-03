@@ -12,8 +12,8 @@ using TaxiDBData;
 namespace TaxiData.Migrations
 {
     [DbContext(typeof(TaxiDBContext))]
-    [Migration("20221220211957_FstMigration")]
-    partial class FstMigration
+    [Migration("20221229231606_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -110,11 +110,11 @@ namespace TaxiData.Migrations
 
             modelBuilder.Entity("TaxiDomain.Client", b =>
                 {
-                    b.Property<int>("ClientID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ClientID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -128,22 +128,22 @@ namespace TaxiData.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Phone")
+                    b.Property<string>("MName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("ClientID");
+                    b.HasKey("Id");
 
                     b.ToTable("Clients");
                 });
 
             modelBuilder.Entity("TaxiDomain.Driver", b =>
                 {
-                    b.Property<int>("DriverID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DriverID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("BirthDate")
                         .HasColumnType("datetime2");
@@ -179,7 +179,7 @@ namespace TaxiData.Migrations
                     b.Property<int>("TaxiDepartmentID")
                         .HasColumnType("int");
 
-                    b.HasKey("DriverID");
+                    b.HasKey("Id");
 
                     b.HasIndex("CarVIN");
 

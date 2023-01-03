@@ -9,7 +9,6 @@ namespace TaxiDomain
     public class Driver : Person
     {
         public string Phone { get; set; }
-
         public int TaxiDepartmentID { get; set; }
         public TaxiDepartment TaxiDepartment { get; set; }
 
